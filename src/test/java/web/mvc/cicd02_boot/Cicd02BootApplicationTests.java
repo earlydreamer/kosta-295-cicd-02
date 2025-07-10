@@ -8,6 +8,8 @@ class Cicd02BootApplicationTests {
 
     @Test
     void contextLoads() {
+        throw new RuntimeException ("test");
     }
+
 
 }
