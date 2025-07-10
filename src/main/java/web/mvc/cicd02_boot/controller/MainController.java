@@ -7,5 +7,5 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @GetMapping("/")
     public String index(){
-        return "CI / CD 적용 테스트 step 3 : application.properties 설정 변경";
+        return "CI / CD 적용 테스트 step 4 : docker를 사용한 배포";
     }}
