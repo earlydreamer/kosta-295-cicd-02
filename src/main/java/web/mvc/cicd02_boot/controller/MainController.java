@@ -7,5 +7,5 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @GetMapping("/")
     public String index(){
-        return "CI / CD 적용 테스트 step 0";
+        return "CI / CD 적용 테스트 step 3 : application.properties 설정 변경";
     }}
